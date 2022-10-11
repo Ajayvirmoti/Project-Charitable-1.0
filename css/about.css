@@ -1,25 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-</head>
-<body>
-    <link rel="stylesheet" href="about.css">
-    <h1>Founders</h1>
-    <div class="founders">
-        <h1>hello
-        </h1>
-        <div class="f_images">
-            <div class="f1">
-                <div class="f1-img"><img src="images/image.png" alt=""></div>
-                <div class="f1-text"><p>Ajay&nbspVirmoti</p></div>
-            </div>
-            <!-- <div class="f2"><img src="images/image.png" alt=""></div>
-            <div class="f3"><img src="images/founder.png" alt=""></div> -->
-        </div>
-    </div>
-</body>
-</html>
+.f_images{
+    /* justify-content: space-between; 
+    display: flex; */
+ }
+ .f1{
+    background: teal;
+    width: 100%;
+    display: flex;
+ }
+.f1 img{ 
+    width: 10rem;
+    background: white;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin: 20px;
+
+}
+
+.f1 img:hover{ 
+    margin: 30px;
+    transition-duration: .5s;
+}
+.f1 .f1-text p{
+    font-size: 40px;
+    margin-left: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: white;
+}
