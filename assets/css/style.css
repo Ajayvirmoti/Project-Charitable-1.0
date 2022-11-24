@@ -1,0 +1,722 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap");
+.hpimg-1 {
+  width: 100%;
+  top: 40px;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(240, 255, 255, 0.7), rgba(1, 1, 1, 0.2)), url("../images/sadness-africa.jpg");
+  padding: 60px 0;
+  background-position: 73%;
+  background-size: cover; }
+
+.hpimg-2 {
+  width: 100%;
+  height: 900px;
+  background-image: linear-gradient(to right, rgba(240, 251, 255, 0.7), rgba(240, 251, 255, 0.4), rgba(240, 251, 255, 0.7)), url("../images/india-kids.jpg");
+  top: 40px;
+  background-position: center; }
+
+.hpimg-3 {
+  width: 100%;
+  height: 900px;
+  background-image: linear-gradient(to right, rgba(240, 251, 255, 0.5), rgba(240, 251, 255, 0.3), rgba(240, 251, 255, 0.5)), url("../images/starvation.jpg");
+  top: 40px;
+  background-position: center;
+  background-size: cover; }
+
+.hpimg-4 {
+  width: 100%;
+  height: 775px;
+  background-image: linear-gradient(to right, rgba(240, 251, 255, 0.7), rgba(240, 251, 255, 0.3), rgba(240, 251, 255, 0.7)), url("../images/Starving -African-Child.jpg");
+  top: 40px;
+  background-position: center; }
+
+.hpimg-5 {
+  width: 100%;
+  height: 97vh;
+  background-image: linear-gradient(to right, rgba(240, 255, 255, 0.7), rgba(1, 1, 1, 0.2)), url("../images/sadness-africa.jpg");
+  background-position: right; }
+
+/*Homepage*/
+.hpimg-1, .hpimg-2, .hpimg-3, .hpimg-4, .hpimg-5 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+
+/*Charity Page*/
+.charityAsiaPic1, .charityAfricaPic, .charityAsiaPic2, .charityEuropePic1, .charitySAPic, .charityEuropePic2, .charityRedCrossPic, .disasterReliefRedCrossPic {
+  width: 100%;
+  height: 74vh;
+  background-size: cover;
+  background-position: center; }
+
+.charityAsiaPic1 {
+  background-image: url("../images/Charity-Images/India-Poverty.jpg"); }
+
+.charityAfricaPic {
+  background-image: url("../images/Charity-Images/Children-Uganda.jpg"); }
+
+.charityAsiaPic2 {
+  background-image: url("../images/Charity-Images/Jakarta-Slum.jpeg"); }
+
+.charityEuropePic1 {
+  background-position: bottom;
+  background-image: url("../images/Charity-Images/Refugee-Child.jpg"); }
+
+.charitySAPic {
+  background-image: url("../images/Charity-Images/Haiti-Poverty.jpeg"); }
+
+.charityEuropePic2 {
+  background-image: url("../images/Charity-Images/EuropeRefugees.jpg"); }
+
+.charityRedCrossPic {
+  background-image: url("../images/Charity-Images/American-Red-Cross.jpg"); }
+
+.disasterReliefRedCrossPic {
+  background-image: url("../images/Charity-Images/Disaster-Relief-Red-Cross.jpg"); }
+
+/*Charity Page Carousel Arrows*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%; }
+
+/*Aside Styles*/
+.social-media-button a, .social-media-button div {
+  display: block;
+  width: 83px;
+  padding: 10px 5px 10px;
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 23px;
+  text-align: right;
+  margin: 20px 0; }
+
+/*Footer Social Media Icons*/
+.facebook-footer, .twitter-footer, .youtube-footer, .instagram-footer {
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  line-height: 40px;
+  font-size: 20px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  text-align: center; }
+
+.donateButtonStyleHP {
+  height: 41px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(97, 255, 242, 0.7), rgba(57, 149, 156, 0.7));
+  color: #FFFFFF;
+  margin: 5% 0;
+  font-weight: 600; }
+
+.donateButtonStyleHP:hover {
+  color: #FFFFFF;
+  background-image: linear-gradient(#61fff2, #39959c); }
+
+.readBtn {
+  background-image: linear-gradient(rgba(97, 255, 242, 0.7), rgba(57, 149, 156, 0.7));
+  color: #FFFFFF;
+  border: none;
+  font-weight: 600; }
+
+.readBtn:hover {
+  background-image: linear-gradient(#61fff2, #39959c); }
+
+.charity-collapse {
+  width: 100%;
+  font-size: 15px;
+  background-color: #01C3FE;
+  color: #FFFFFF;
+  padding: 18px;
+  border: none;
+  transition: 0.2s ease-in-out; }
+
+.charity-collapse:hover {
+  background-color: #0188FE; }
+
+.donateButtonStyle {
+  background-image: linear-gradient(rgba(97, 255, 242, 0.7), rgba(57, 149, 156, 0.7));
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  transition: 0.2s ease-in-out; }
+
+.donateButtonStyle:hover {
+  background-image: linear-gradient(#61fff2, #39959c);
+  color: #FFFFFF; }
+
+#calculator-wrapper {
+  position: fixed;
+  z-index: 999;
+  width: 20%;
+  left: 40%;
+  bottom: 70%; }
+
+.calculatorSection {
+  position: absolute; }
+
+#calculatorSectionHeader {
+  z-index: 10; }
+
+.calcTextBG {
+  cursor: move;
+  padding: 0;
+  width: 91%;
+  background-color: lightblue;
+  border: 1px solid blue;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; }
+
+.screen {
+  width: 100%;
+  font-size: 1.5rem;
+  background: #292938;
+  color: #FFFFFF;
+  border: none; }
+
+.calc-no-padding {
+  padding: 0; }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s linear; }
+
+.btn-equal {
+  width: 100%;
+  font-size: 1.5rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+
+.calcBtnStyle {
+  flex: 0 0 25%;
+  border: 1px solid black;
+  padding: 2px 0;
+  transition: all 0.5s ease-in-out; }
+
+.calcBtnStyle:hover {
+  background: blue; }
+
+.calcBtnYellow {
+  background: lightYellow; }
+
+.calcBtnGrey {
+  background: grey; }
+
+.calcBtnGreen {
+  background: green; }
+
+.calcBtnRed {
+  background: red; }
+
+#submitBtn {
+  background-image: linear-gradient(#17a2b8, #01557b);
+  color: #FFFFFF;
+  position: absolute;
+  float: right; }
+
+.hvr-shutter-out-vertical {
+  background-color: #FFFFFF; }
+
+.navbar-light {
+  background-color: #FFFFFF; }
+
+.navBrandColor:hover {
+  transition: 0.2s;
+  color: #007bff !important; }
+
+#footer {
+  width: 100%;
+  height: 300px;
+  padding: 30px 0;
+  background-color: #FFFFFF;
+  position: static; }
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  color: #000000; }
+
+.footer-link {
+  color: #000000;
+  text-decoration: none; }
+
+.footer-link:hover {
+  color: #0188FE;
+  text-decoration: none; }
+
+.social-media-icons-footer {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-top: 4px; }
+
+.facebook-footer {
+  color: #FFFFFF; }
+
+/* Fixed Icon */
+.social-media-button {
+  position: fixed;
+  top: 50%;
+  padding: 0 !important;
+  left: -35px;
+  width: 50%;
+  transform: translateY(-50%);
+  list-style-type: none; }
+
+/* Social Media Icons*/
+.sideCalculator:hover {
+  background-color: rgba(102, 51, 153, 0.8); }
+
+.facebook:hover {
+  background-color: rgba(59, 89, 152, 0.8); }
+
+.twitter:hover {
+  background-color: rgba(85, 172, 238, 0.8); }
+
+.instagram:hover {
+  background-color: rgba(253, 89, 73, 0.8); }
+
+.youtube:hover {
+  background-color: rgba(187, 0, 0, 0.8); }
+
+.facebook {
+  background: #3B5998;
+  color: #FFFFFF; }
+
+.twitter {
+  background: #55ACEE;
+  color: #FFFFFF; }
+
+.instagram {
+  background: #fd5949;
+  color: #FFFFFF; }
+
+.youtube {
+  background: #bb0000;
+  color: #FFFFFF; }
+
+.sideCalculator {
+  background-color: #663399;
+  color: white; }
+
+.asideCalcText {
+  font-size: 12px;
+  vertical-align: middle; }
+
+#bodyColor {
+  background-color: #f0fbff; }
+
+.charitiesH1 {
+  padding: 28px 0;
+  color: #000000; }
+
+#AsiaAfricaSection {
+  padding: 5% 0; }
+
+#SAEuropeCharities {
+  padding: 10% 0; }
+
+#NAAusCharities {
+  padding: 12% 0; }
+
+.charity-text {
+  padding: 0 18px;
+  white-space: pre-line;
+  max-height: 0;
+  overflow: scroll;
+  margin-bottom: 10px;
+  transition: max-height 0.2s ease-in-out;
+  background-color: #FFFFFF; }
+
+.charity-collapse:after {
+  content: '\02795';
+  float: right;
+  margin-left: 5px; }
+
+.symbol:after {
+  content: "\2796"; }
+
+.carousel-inner {
+  padding-top: 55px;
+  margin-bottom: 10px; }
+
+.donatePageTextColor {
+  color: #000000; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.red-count {
+  color: red;
+  font-weight: 600; }
+
+.blue-seconds {
+  color: blue; }
+
+.top-section {
+  padding: 1em 0.5em 0; }
+
+.top-section-counter-BG {
+  background-color: rgba(225, 0, 0, 0.3);
+  color: #FFFFFF;
+  padding: 10px 0;
+  position: relative; }
+
+.section {
+  height: auto;
+  color: #000000; }
+
+.top-section {
+  margin: 15px 0;
+  padding: 1em 0;
+  color: #000000;
+  height: auto; }
+
+.text {
+  margin-top: 3%;
+  padding-right: 10px; }
+
+.MotherTeresaQuote {
+  text-transform: uppercase;
+  color: #000000;
+  font-style: italic; }
+
+.more {
+  display: none; }
+
+#stats-banner-heading {
+  color: white;
+  bottom: 47%;
+  text-align: center; }
+
+.chartText {
+  color: #000000; }
+
+.no-content-BG {
+  background: #FFFFFF; }
+
+.statisticsHeading {
+  margin-left: 10px;
+  margin-top: 90px;
+  color: #000000; }
+
+.death-seconds {
+  text-align: center;
+  color: #FFFFFF; }
+
+.closing-button-wrapper {
+  display: flex;
+  justify-content: flex-end; }
+
+.closing-button {
+  width: 20px;
+  cursor: pointer; }
+
+.closing-button:hover {
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.closing-button:active {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.row-flex {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ffff8a; }
+
+.notice-text {
+  margin: 0; }
+
+.graph-color {
+  color: #000000; }
+
+#statsBox {
+  width: 100%;
+  height: 350px;
+  margin: 60px 0;
+  background-image: url(../images/Statistics-Images/african-orphan.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(1, 1, 1, 0), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+
+.theCounters {
+  color: #FFFFFF;
+  text-align: center;
+  display: flex; }
+
+#deathStats {
+  padding: 5px; }
+
+.red-count-statistics {
+  color: red; }
+
+.blue-seconds-statistics {
+  color: blue; }
+
+.stats-padding-bottom {
+  padding-bottom: 50px; }
+
+#map {
+  height: 100vh;
+  width: 100%;
+  top: 40px;
+  margin-top: -40px;
+  margin-bottom: 40px; }
+
+.mapInstruction {
+  padding-top: 25%;
+  padding-bottom: 10%;
+  color: #000000; }
+
+.contactForm {
+  position: relative; }
+
+.forms {
+  margin: auto;
+  padding: 20px 0; }
+
+.text-box-length {
+  width: 100%; }
+
+.formsSubmit {
+  margin: 10px 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center; }
+
+.contactWrap {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px 0px 70px 0px;
+  background-color: #FFFFFF;
+  width: 80%; }
+
+.contactBG {
+  background-color: #f0fbff; }
+
+.contact-list {
+  list-style: none;
+  padding: 0px; }
+
+.contact-cta {
+  height: 60vh;
+  background-image: url("../images/sadness-africa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media (min-width: 576px) {
+  /*Homepage*/
+  .textHP1 {
+    margin-left: 36px;
+    margin-top: 36px;
+    padding-left: 10px; }
+
+  .section {
+    margin-left: 44px; }
+
+  .donateButtonStyleHP {
+    height: 49px; }
+
+  .mapInstruction {
+    padding-top: 17%; }
+
+  .chartText {
+    margin: 0 10%;
+    text-align: center; }
+
+  .chartStyling {
+    background-color: #FFFFFF;
+    margin: 70px 0px 70px 0px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .heading-margin {
+    margin-left: 230px; }
+
+  .chart-margin {
+    margin-left: 230px; }
+
+  .social-media-button a, .social-media-button div {
+    transform: translateX(-15px); }
+
+  .social-media-button {
+    width: 5.5%; }
+
+  #footer {
+    height: 110px; }
+
+  .text-box-length {
+    width: 300px;
+    margin-left: 5px; } }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px; }
+
+  h2 {
+    font-size: 35px; }
+
+  h3 {
+    font-size: 25px; }
+
+  /*Homepage*/
+  .hpimg-1 {
+    padding: 164px 0; }
+
+  .hpimg-2 {
+    height: 975px; }
+
+  .hpimg-3 {
+    height: 975px; }
+
+  .hpimg-4 {
+    height: 975px; }
+
+  .text {
+    padding-right: 10px;
+    position: relative; }
+
+  .MotherTeresaQuote {
+    font-size: 26px;
+    position: relative; }
+
+  .graph-color {
+    color: #000000; }
+
+  #statsBox {
+    height: 500px; }
+
+  .heading-margin {
+    margin-left: 0; }
+
+  .chart-margin {
+    margin-left: 0px; }
+
+  .row-flex {
+    margin-bottom: 0; }
+
+  .text-box-length {
+    width: 400px; }
+
+  .contactMeBulletPoints {
+    height: 300px;
+    top: 3em; }
+
+  .contact-list {
+    list-style: none; }
+
+  .social-media-button a, .social-media-button div {
+    transform: translateX(-90px); }
+
+  .social-media-button {
+    padding-left: 40px !important;
+    left: 0; } }
+@media (min-width: 992px) {
+  p {
+    font-size: 18px; }
+
+  .hpimg-1 {
+    padding: 100px 0 350px 0; }
+
+  .mapInstruction {
+    padding-top: 13%; }
+
+  .stats-banner-text {
+    font-size: 26px; }
+
+  div.dc-chart {
+    float: none;
+    text-align: center; }
+
+  .sideCalculator:hover {
+    background-color: rgba(102, 51, 153, 0.8);
+    transform: translateX(-20px); }
+
+  .facebook:hover {
+    background-color: rgba(59, 89, 152, 0.8);
+    transform: translateX(-20px); }
+
+  .twitter:hover {
+    background-color: rgba(85, 172, 238, 0.8);
+    transform: translateX(-20px); }
+
+  .instagram:hover {
+    background-color: rgba(253, 89, 73, 0.8);
+    transform: translateX(-20px); }
+
+  .youtube:hover {
+    background-color: rgba(187, 0, 0, 0.8);
+    transform: translateX(-20px); } }
+@media (min-width: 1200px) {
+  .top-section-counter-BG {
+    padding-right: 29px; }
+
+  .hpimg-1 {
+    padding: 200px 0; }
+
+  .hpimg-2 {
+    width: 100%;
+    height: 1000px;
+    top: 40px; }
+
+  .hpimg-3 {
+    width: 100%;
+    height: 1000px;
+    top: 40px; }
+
+  .hpimg-4 {
+    height: 1000px; }
+
+  .textHP1 {
+    padding-left: 40px; }
+
+  .section {
+    margin-left: 40px; }
+
+  .social-media-button a, .social-media-button div {
+    transform: translateX(-53px); }
+
+  .social-media-button {
+    left: -35px; }
+
+  #statsBox {
+    height: 600px; }
+
+  .stats-banner-text {
+    font-size: 30px; }
+
+  .text-box-length {
+    width: 780px; } }
+
+/*# sourceMappingURL=style.css.map */
